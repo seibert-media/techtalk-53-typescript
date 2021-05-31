@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["src/**/*.test.ts", "test/**", "dist/**"],
+  "compilerOptions": {
+    "incremental": false,
+    "allowUnusedLabels": true, /* Having some of them in the generated files and can't touch them since they're generated */
+    "noUnusedLocals": false, /* Having some of them in the generated files and can't touch them since they're generated */
+ }
+
+}
